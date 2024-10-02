@@ -1,0 +1,54 @@
+# Xcode
+#
+# gitignoreファイルに追加すべき項目です
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+#
+# SPMに関連する無視すべきファイルです
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+
+# CocoaPods
+#
+# CocoaPodsを使用している場合は、これらの行のコメントを解除してください
+# Pods/
+
+# Carthage
+#
+# Carthageを使用している場合は、これらの行のコメントを解除してください
+# Carthage/Checkouts
+# Carthage/Build
+
+# その他
+.DS_Store
+*.swp
+*.lock
+profile
+.history
+
+# ビルドフォルダを無視
+/build/
+
+# XCFrameworkを含める
+# *.xcframework
+
+# Frameworksディレクトリを含める
+# Frameworks/
